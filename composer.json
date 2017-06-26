@@ -1,0 +1,12 @@
+{
+    "name": "jarvisphp/elasticsearch-skill",
+    "require": {
+        "php": ">=7.1.0",
+        "elasticsearch/elasticsearch": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jarvis\\Skill\\Elasticsearch\\": "src/"
+        }
+    }
+}
